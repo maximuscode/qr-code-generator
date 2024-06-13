@@ -1,32 +1,28 @@
-## 📦 Приложение - QR Code Генератор
+## 📦 qr-code generator app
 
-### 🚀 Обзор
-Код представляет собой React-приложение "QR Code Generator". Это главный компонент приложения, который позволяет пользователю выбирать разные генераторы QR-кодов и создавать QR-коды с разными параметрами.
+### 🚀 overview
+qr code generator react application. main component of the application that allows the user to choose different qr codes generators and create qr codes with different parameters.
 
-### Функциональность
+### functionality
 
-1. Пользователь видит название приложения "QR Generators" и выпадающий список для выбора типа генератора QR-кода.
-2. В списке доступны разные генераторы, каждый с описанием.
-3. При выборе генератора из списка отображается соответствующий компонент для создания QR-кода.
-4. Пользователь может изменять параметры QR-кода, такие как текст, размер и цвет.
-5. После настройки параметров, пользователь может сохранить QR-код на свое устройство.
-6. При возникновении уведомлений (например, об ошибке) используется библиотека `react-hot-toast` для их отображения в нижней части экрана.
+1. the user sees the name of the application "qr generators" and a falling list for choosing the type of qr code generator.
+2. different generators are available in the list, each with a description.
+3. when choosing a generator from the list, the corresponding component is displayed for creating a qr code.
+4. the user can change the parameters of the qr code, such as text, size and color.
+5. after setting up the parameters, the user can save the qr code for his device.
+6. in the event of notifications (for example, an error), the `react-hot-toast` library is used to display them at the bottom of the screen.
 
-### Структура
+### structure
 
-- `App` - главный компонент приложения.
-  - `selected` - состояние, хранящее выбранный тип генератора.
-  - `onChange` - функция для обработки изменений в выпадающем списке.
-  - `QRCodeGenerator01`, `QRCodeGenerator02`, `QRCodeGenerator03`, `QRCodeGenerator04`, `QRCodeGenerator05` - компоненты для генерации QR-кодов, которые отображаются в зависимости от выбора пользователя.
-  - `Toaster` - компонент для управления уведомлениями.
+- `app` is the main component of the application.
+- `selected` - a condition that stores the selected type of generator.
+- `onchange` - a function for processing changes in the drop -down list.
+- qrcodegenerator01`, `qrcodegenerator02`, qrcodegenerator03`,` qrcodegenerator04`, qrcodegenerator05` - components for generating qr codes that are displayed depending on the choice of user.
+- `toaster` is a component to manage notifications.
 
-Приложение предоставляет простой способ генерации QR-кодов с разными инструментами для пользователей.
-
+the application provides a simple method of generating qr code with different users.
 ---
-#### 🌄 Превью:
-![Превью](public/images/preview.jpg)
+#### 🌄 preview:
+![preview](public/images/preview.jpg)
 
-
------
-#### 🙌 Автор: [@nagoev-alim](https://github.com/nagoev-alim)
-
+x

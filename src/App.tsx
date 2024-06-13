@@ -27,7 +27,7 @@ const App: FC = () => {
     setSelected(value);
   };
   return (
-    <div className='bg-white border-2 shadow rounded max-w-md w-full p-3 grid gap-5'>
+    <div className='bg-white border-2 shadow rounded-2xl max-w-md w-full p-5 grid gap-5'>
       <h1 className='text-center font-bold text-4xl'>QR Generators</h1>
       <select className='input' onChange={onChange}>
         <option value=''>Select QR Generator</option>
